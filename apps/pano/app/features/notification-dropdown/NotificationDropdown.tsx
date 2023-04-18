@@ -21,11 +21,11 @@ const MenuContent = styled(DropdownMenuContent, {
 const MenuItem = styled(DropdownMenuItem, {
   height: "auto",
   padding: "$2",
-  cursor: "pointer",
+  cursor: 'pointer',
 });
 
 const MenuLink = styled(Link, {
-  textDecoration: "none",
+  textDecoration: "none",as
 });
 
 const MenuIconButton = styled(IconButton, {
