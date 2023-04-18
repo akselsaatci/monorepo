@@ -16,12 +16,12 @@ import type { MyNotification } from "~/models/notification.server";
 
 const MenuContent = styled(DropdownMenuContent, {
   maxWidth: "$9",
-});
+})
 
 const MenuItem = styled(DropdownMenuItem, {
   height: "auto",
   padding: "$2",
-  cursor: "pointer",
+  cursor: 'pointer',
 });
 
 const MenuLink = styled(Link, {
