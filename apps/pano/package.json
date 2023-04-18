@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint src",
+    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint app",
     "lint:fix": "npm run lint -- --fix",
     "dev": "run-p dev:*",
     "dev:remix": "remix dev",
