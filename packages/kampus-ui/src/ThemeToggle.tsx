@@ -10,7 +10,6 @@ export const ThemeToggle: FC = () => {
 
   const onClick = () => {
     if (theme === "DARK") {
-      
       setTheme("LIGHT");
     } else {
       setTheme("DARK");

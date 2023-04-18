@@ -8,7 +8,7 @@ import {
 } from "~/models/notification.server";
 
 export const action: ActionFunction = async ({ request }) => {
-  await requireUser(request)
+  await requireUser(request);
   const formData = await request.formData();
   const jsonData = formData.get("json") as string | null;
 
