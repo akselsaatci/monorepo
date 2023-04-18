@@ -32,6 +32,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Lint Check
+        if: ${{ success() }}
+        run: |
+          npm run lint
+      - name: Code Format Check
+        if: ${{ success() }}
+        run: |
+          npm run prettier
+
       - name: Build
         run: npm run build
 
