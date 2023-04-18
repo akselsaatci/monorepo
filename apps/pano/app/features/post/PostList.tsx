@@ -1,8 +1,8 @@
 import { GappedBox } from "@kampus/ui";
 import type { SerializeFrom } from "@remix-run/node";
 import type { FC } from "react";
-import { PostItem } from "./PostItem";
 import type { PostWithCommentCount } from "~/models/post.server";
+import { PostItem } from "./PostItem";
 
 type PostListProps = {
   posts: SerializeFrom<PostWithCommentCount[]>;

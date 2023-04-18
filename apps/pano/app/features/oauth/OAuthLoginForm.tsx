@@ -1,6 +1,7 @@
 import { Button, Form, OAuthProviderLogo } from "@kampus/ui";
-import React, { FC } from "react";
-import { strategies } from "../authenticator";
+import type { FC } from "react";
+import React from "react";
+import type { strategies } from "../authenticator";
 
 type Props = {
   provider: Exclude<keyof typeof strategies, "otp" | "user-pass">;
