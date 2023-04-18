@@ -39,7 +39,7 @@ jobs:
       - name: Code Format Check
         if: ${{ success() }}
         run: |
-          npm run prettier
+          npm run prettier-check
 
       - name: Build
         run: npm run build
