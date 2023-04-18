@@ -19,8 +19,8 @@ const MenuContent = styled(DropdownMenuContent, {
 });
 
 const MenuItem = styled(DropdownMenuItem, {
-  height: "auto",
-  padding: "$2",
+  height: 'auto',
+  padding: '$2',
   cursor: "pointer",
 });
 
